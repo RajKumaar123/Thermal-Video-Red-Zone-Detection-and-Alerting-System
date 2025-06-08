@@ -1,0 +1,22 @@
+
+# Ignore virtual environments
+Thermal/
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variable files
+.env
+
+# Ignore macOS system files
+.DS_Store
