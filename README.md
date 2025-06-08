@@ -10,6 +10,7 @@ We use the UNO-FLUX model from Hugging Face to generate synthetic thermal images
 The generated results are saved in the Thermal Image folder and can be used for analysis—just like real thermal input.
 
 This approach helps test the system without needing actual thermal footage and can also be extended to generate synthetic video frames for full pipeline evaluation.
+
 ---
 
 ## What This Project Does
