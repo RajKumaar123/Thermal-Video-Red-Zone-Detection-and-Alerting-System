@@ -30,6 +30,22 @@ It can help improve safety by providing early warnings before a situation become
 ## How to Use
 
 1. Place your video in the input directory.
-2. Run the notebook `Vcvision04.ipynb`.
+2a. Run the notebook `Vcvision04.ipynb` to work on video. Video should be kept in 'Thermal Video' Folder.
+2b. Run the notebook `cvision04.ipynb`to work on Image. Image should be kept in 'Thermal Image' Folder.
 3. Review the output video and alert frames in the output folder.
 4. Use the plotted chart to see how red activity changed over time.
+
+## 🔧 New Feature: Synthetic Image Generator
+
+- Added `app.py` to generate synthetic thermal images for testing.
+- Enhanced image analysis via scripts inside `Thermal Image/`.
+- Output is saved in `OutputImages/`.
+
+## Synthetic Thermal Image Generator (app.py)
+This script generates synthetic thermal images of industrial pipeline systems using a guided prompt-based image generation model. It's designed to help simulate different heat intensity zones (red, yellow, green, blue) for testing and analysis.
+
+✅ Features
+Prompts simulate varying thermal conditions across frames
+Supports GPU for faster image generation
+Generates realistic heatmaps using a reference image
+Automatically saves generated images to the output folder
