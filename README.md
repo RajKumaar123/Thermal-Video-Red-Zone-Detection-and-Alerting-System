@@ -52,9 +52,10 @@ This system is useful for:
    - Place your **image** in the `Thermal Image/` folder.
 
 2. **Run one of the notebooks:**
+   - `Icvision.ipynb` → for analyzing red/Green/Yellow/Blue/ zones in static images.
    - `Vcvision03.ipynb` → for video red zone detection for all the frames.
    - `Vcvision04.ipynb` → for video red zone detection with visulazation .
-   - `cvision.ipynb` → for analyzing red zones in static images.
+   
 
 3. **Review your outputs:**
    - Check the **output video**, **alert logs**, and **key alert frames**.
