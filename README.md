@@ -1,7 +1,15 @@
 # Thermal Video Red Zone Detection and Alerting System
 
-This project is designed to automatically detect and track areas of high red intensity in thermal or surveillance videos. These red zones often indicate rising temperatures, heat leaks, or potential fire hazards. The system uses Python with OpenCV and NumPy to process each video frame and alert when the intensity of red crosses a certain threshold.
+This project focuses on automatically detecting and monitoring areas with high red intensity in thermal or surveillance videos—commonly linked to rising temperatures, potential fire zones, or heat leaks. Built using Python, OpenCV, and NumPy, the system analyzes each frame of the video to track red pixel intensity in real time.
 
+It features automated alert logging when red intensity goes beyond a set threshold, along with visual outputs such as annotated videos and red activity plots over time. These insights help identify heat-related anomalies early, enabling quicker and more informed responses.
+
+The solution is ideal for industrial safety monitoring, environmental surveillance, and thermal event analysis. It's fully customizable, letting users adjust sensitivity levels to suit different operational needs.
+
+We use the UNO-FLUX model from Hugging Face to generate synthetic thermal images. These images simulate realistic heatmaps with zones representing different temperature levels (e.g., red for hot, blue for cool).
+The generated results are saved in the Thermal Image folder and can be used for analysis—just like real thermal input.
+
+This approach helps test the system without needing actual thermal footage and can also be extended to generate synthetic video frames for full pipeline evaluation.
 ---
 
 ## What This Project Does
