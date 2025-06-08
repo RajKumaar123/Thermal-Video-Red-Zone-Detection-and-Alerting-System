@@ -52,7 +52,8 @@ This system is useful for:
    - Place your **image** in the `Thermal Image/` folder.
 
 2. **Run one of the notebooks:**
-   - `Vcvision04.ipynb` → for video red zone detection.
+   - `Vcvision03.ipynb` → for video red zone detection for all the frames.
+   - `Vcvision04.ipynb` → for video red zone detection with visulazation .
    - `cvision.ipynb` → for analyzing red zones in static images.
 
 3. **Review your outputs:**
